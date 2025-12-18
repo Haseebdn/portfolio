@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* =========== Header =========== */
+
+.header_1 {
+    background-color:rgb(160, 160, 160);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+
+}
+
+.header_1 .logo_text {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px;
+    letter-spacing: 7px;
+    text-shadow: 6px 1px 2px rgba(0, 0, 0, 0.64);
+    color:rgb(255, 220, 155);
+}
+
+.header_1 .navg a {
+    /* background-color: white; */
+    padding: 14px;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 500;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+}
+
+.header_1 .navg a:hover {
+    background-color:rgb(160, 160, 160);
+    color:black;
+}
+/* =========== Header =========== */
+
+
+/* =========== Hero =========== */
+
+.hero_sec {
+    background-color: aqua;
+    height: 600px;
+    width: 100%;
+}
+.hero_sec .hero_div {
+    background-image: url("../Images/code.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.hero_sec .hero_div h2 {
+    font-size: 70px;
+    color:rgb(230, 45, 45);
+    text-shadow: 1px 6px 2px rgba(0, 0, 0, 1);
+}
+
+.hero_sec .hero_div h2 span {
+    text-transform: capitalize;
+}
+
+.hero_sec .hero_div p {
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgb(252, 250, 250);
+    text-shadow: 1px 6px 2px rgba(0, 0, 0, 1);
+}
+/* =========== Hero =========== */
+
+/* ================ Info =============== */
+
+.div_info {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+}
+
+.div_info .content_1 {
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    width: 900px;
+    background-color:white;
+    padding: 60px;
+    border-radius: 3px;
+}
+
+
+.div_info .content_1 .prof_info{
+    width:350px;   
+}
+
+.div_info .content_1 .prof_info img{
+    padding-top: 6px;
+    float: left;
+    width: 130px;
+    height: 120px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.div_info .content_1 .prof_info .name{
+    float: right;
+    font-size: 18px;  
+    padding-top: 3px;
+}
+.div_info .content_1 .prof_info .skills_{
+    line-height: 25px;
+    clear: both;
+}
+ .div_info .content_1 .info_1{
+
+    width: 425px;
+}
+.div_info .content_1 .info_1 span{
+    font-size: 30px;
+    font-weight: 500px;
+}
+/* ================ Info =============== */
+
+
+/* ================ Servicse ===============*/
+.service_sec{
+    height: 730px;
+    width: 100%;
+    background-color:  rgb(240, 240, 240);
+}
+
+.service_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.service_sec  .service_heading h2 {
+    font-size:36px ;
+    font-weight: 500px;
+    margin-bottom: 7px;
+
+}
+
+.service_sec .services {
+    box-sizing: border-box;
+    height:570px;
+    width: 1100px;
+    margin: 50px auto;
+
+}
+.service_sec .services .upper_div {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 285px;
+    justify-content: center;
+    gap: 20px;
+  
+}
+
+.service_sec .services .upper_div .service_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height:260px;
+    width:320px;
+    background-color: rgb(0, 218, 218);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    
+}
+
+
+
+.service_sec .services .lower_div {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 285px;
+    justify-content: center;
+    gap: 20px;
+  
+}
+
+.service_sec .services .lower_div .service_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height:260px;
+    width:320px;
+    background-color: rgb(0, 218, 218);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    
+}
+
+.icon{
+    font-size: 50px;
+    background-color: rgb(240, 240, 240);
+    height: 90px;
+    width: 100px;
+    border: 9px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.icon:hover{
+    background-color: blue;
+    color:rgb(255, 255, 255) ;
+    border:9px solid rgb(240, 240, 240) ;
+    transition: .4s all ease;
+
+}
+.box_heading{
+    font-size: 23px;
+    font-weight: 550;
+}
+
+.box_para{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/* ================ Servicse===============*/
