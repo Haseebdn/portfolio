@@ -11,7 +11,6 @@
     align-items: center;
     width: 100%;
     position: fixed;
-
 }
 
 .header_1 .logo_text {
@@ -25,7 +24,6 @@
 }
 
 .header_1 .navg a {
-    /* background-color: white; */
     padding: 14px;
     text-decoration: none;
     font-size: 23px;
@@ -63,8 +61,8 @@
 
 
 .hero_sec .hero_div h2 {
-    font-size: 70px;
-    color:rgb(230, 45, 45);
+    font-size: 80px;
+    color:rgb(230, 212, 45);
     text-shadow: 1px 6px 2px rgba(0, 0, 0, 1);
 }
 
@@ -74,9 +72,9 @@
 
 .hero_sec .hero_div p {
     font-size: 40px;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     text-transform: uppercase;
-    color: rgb(252, 250, 250);
+    color: rgb(255, 183, 28);
     text-shadow: 1px 6px 2px rgba(0, 0, 0, 1);
 }
 /* =========== Hero =========== */
@@ -99,7 +97,7 @@
     height: 350px;
     width: 900px;
     background-color:white;
-    padding: 60px;
+    padding: 55px;
     border-radius: 3px;
 }
 
@@ -127,7 +125,6 @@
     clear: both;
 }
  .div_info .content_1 .info_1{
-
     width: 425px;
 }
 .div_info .content_1 .info_1 span{
@@ -149,14 +146,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .service_sec  .service_heading h2 {
     font-size:36px ;
     font-weight: 500px;
     margin-bottom: 7px;
-
 }
 
 .service_sec .services {
@@ -164,7 +159,6 @@
     height:570px;
     width: 1100px;
     margin: 50px auto;
-
 }
 .service_sec .services .upper_div {
     display: flex;
@@ -173,7 +167,6 @@
     height: 285px;
     justify-content: center;
     gap: 20px;
-  
 }
 
 .service_sec .services .upper_div .service_box{
@@ -186,8 +179,7 @@
     background-color: rgb(0, 218, 218);
     padding: 20px;
     box-sizing: border-box;
-    border-radius: 8px;
-    
+    border-radius: 8px;   
 }
 
 
@@ -198,8 +190,7 @@
     box-sizing: border-box;
     height: 285px;
     justify-content: center;
-    gap: 20px;
-  
+    gap: 20px; 
 }
 
 .service_sec .services .lower_div .service_box{
@@ -213,10 +204,9 @@
     padding: 20px;
     box-sizing: border-box;
     border-radius: 8px;
-    
 }
 
-.icon{
+.service_icon{
     font-size: 50px;
     background-color: rgb(240, 240, 240);
     height: 90px;
@@ -228,12 +218,11 @@
     border-radius: 50%;
 }
 
-.icon:hover{
+.service_icon:hover{
     background-color: blue;
     color:rgb(255, 255, 255) ;
     border:9px solid rgb(240, 240, 240) ;
     transition: .4s all ease;
-
 }
 .box_heading{
     font-size: 23px;
@@ -247,3 +236,61 @@
 
 
 /* ================ Servicse===============*/
+
+
+/*============== counter section ============= */
+#projects_section{
+    width: 100%;
+    margin: 50px 0px 50px;
+    min-height: 350px;
+    background-color: rgb(4, 139, 218);
+    display: flex;
+    justify-content: center;
+}
+
+#projects_section .project_count{
+    width: 1100px;
+    min-height:350px ;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#projects_section .project_count .count_child{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+}
+
+#projects_section .project_count .count_child .count_icon{
+    font-size: 50px;
+    height: 90px;
+    width: 100px;
+    border: 9px solid rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: rgb(240, 240, 240);
+}
+
+#projects_section .project_count .count_child :nth-child(2),
+#projects_section .project_count .count_child :nth-child(3){
+    color:rgb(240, 240, 240) ;
+    font-size: 26px;
+    font-weight: 400;
+}
+.rating_number{
+    display:block;
+}
+.rating_number i{
+    font-size: 19px;
+}
+
+
+
+
+/*============== counter section ============= */
+
