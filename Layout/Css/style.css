@@ -1,29 +1,31 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 /* =========== Header =========== */
 
-.header_1{
-    background-color:rgb(160, 160, 160);
+.header_1 {
+    background-color: rgb(160, 160, 160);
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     position: fixed;
+    z-index: 99;
 }
 
-.header_1 .logo_text{
+.header_1 .logo_text {
     font-size: 25px;
     font-weight: 500;
     text-transform: uppercase;
     padding: 5px;
     letter-spacing: 7px;
     text-shadow: 6px 1px 2px rgba(0, 0, 0, 0.64);
-    color:rgb(255, 220, 155);
+    color: rgb(255, 220, 155);
 }
 
-.header_1 .navg a{
+.header_1 .navg a {
     padding: 14px;
     text-decoration: none;
     font-size: 23px;
@@ -32,21 +34,24 @@
     color: rgb(255, 255, 255);
 }
 
-.header_1 .navg a:hover{
-    background-color:rgb(160, 160, 160);
-    color:black;
+.header_1 .navg a:hover {
+    background-color: rgb(160, 160, 160);
+    color: black;
+    cursor: pointer;
 }
+
 /* =========== Header =========== */
 
 
 /* =========== Hero =========== */
 
-.hero_sec{
+.hero_sec {
     background-color: aqua;
     height: 600px;
     width: 100%;
 }
-.hero_sec .hero_div{
+
+.hero_sec .hero_div {
     background-image: url("../Images/code.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,28 +65,29 @@
 
 
 
-.hero_sec .hero_div h2{
+.hero_sec .hero_div h2 {
     font-size: 80px;
-    color:rgb(230, 212, 45);
+    color: rgb(230, 212, 45);
     text-shadow: 1px 6px 2px rgba(0, 0, 0, 1);
 }
 
-.hero_sec .hero_div h2 span{
+.hero_sec .hero_div h2 span {
     text-transform: capitalize;
 }
 
-.hero_sec .hero_div p{
+.hero_sec .hero_div p {
     font-size: 40px;
     letter-spacing: 4px;
     text-transform: uppercase;
     color: rgb(255, 183, 28);
     text-shadow: 1px 6px 2px rgba(0, 0, 0, 1);
 }
+
 /* =========== Hero =========== */
 
 /* ================ Info =============== */
 
-.div_info{
+.div_info {
     min-height: 500px;
     display: flex;
     justify-content: center;
@@ -91,22 +97,25 @@
     border-radius: 5px;
 }
 
-.div_info .content_1{
+.div_info .content_1 {
     display: flex;
     justify-content: space-between;
     height: 350px;
     width: 900px;
-    background-color:white;
+    background-color: white;
     padding: 55px;
-    border-radius: 7px;
+    border-radius: 13px;
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.47);
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.47);
 }
 
 
-.div_info .content_1 .prof_info{
-    width:350px;   
+.div_info .content_1 .prof_info {
+    width: 350px;
 }
 
-.div_info .content_1 .prof_info img{
+.div_info .content_1 .prof_info img {
     float: left;
     width: 130px;
     height: 120px;
@@ -114,53 +123,58 @@
     margin-bottom: 20px;
 }
 
-.div_info .content_1 .prof_info .name{
+.div_info .content_1 .prof_info .name {
     float: right;
-    font-size: 18px;  
+    font-size: 18px;
     padding-top: 3px;
 }
-.div_info .content_1 .prof_info .skills_{
+
+.div_info .content_1 .prof_info .skills_ {
     line-height: 25px;
     clear: both;
 }
- .div_info .content_1 .info_1{
+
+.div_info .content_1 .info_1 {
     width: 425px;
 }
-.div_info .content_1 .info_1 span{
+
+.div_info .content_1 .info_1 span {
     font-size: 30px;
     font-weight: 500px;
 }
+
 /* ================ Info =============== */
 
 
 /* ================ Servicse ===============*/
-.service_sec{
+.service_sec {
     height: 730px;
     width: 100%;
-    background-color:  rgb(240, 240, 240);
+    background-color: rgb(240, 240, 240);
 }
 
-.service_heading{
+.service_heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.service_sec  .service_heading h2{
-    font-size:36px ;
+.service_sec .service_heading h2 {
+    font-size: 36px;
     font-weight: 500px;
     margin-bottom: 7px;
 }
 
-.service_sec .services{
+.service_sec .services {
     box-sizing: border-box;
-    height:570px;
+    height: 570px;
     width: 1100px;
     margin: 50px auto;
 }
+
 .service_sec .services .upper_div,
-.service_sec .services .lower_div{
+.service_sec .services .lower_div {
     display: flex;
     padding: 10px;
     box-sizing: border-box;
@@ -171,20 +185,21 @@
 
 
 .service_sec .services .upper_div .service_box,
-.service_sec .services .lower_div .service_box{
+.service_sec .services .lower_div .service_box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height:260px;
-    width:320px;
+    height: 260px;
+    width: 320px;
     background-color: rgb(0, 218, 218);
     padding: 20px;
     box-sizing: border-box;
     border-radius: 8px;
 }
+
 .service_sec .services .upper_div .service_box .service_icon,
-.service_sec .services .lower_div .service_box .service_icon{
+.service_sec .services .lower_div .service_box .service_icon {
     font-size: 50px;
     background-color: rgb(240, 240, 240);
     height: 90px;
@@ -195,20 +210,23 @@
     align-items: center;
     border-radius: 50%;
 }
+
 .service_sec .services .upper_div .service_box .service_icon:hover,
-.service_sec .services .lower_div .service_box .service_icon:hover{
+.service_sec .services .lower_div .service_box .service_icon:hover {
     background-color: blue;
-    color:rgb(255, 255, 255) ;
-    border:9px solid rgb(240, 240, 240) ;
+    color: rgb(255, 255, 255);
+    border: 9px solid rgb(240, 240, 240);
     transition: .4s all ease;
 }
+
 .service_sec .services .upper_div .service_box .box_heading,
-.service_sec .services .lower_div .service_box .box_heading{
+.service_sec .services .lower_div .service_box .box_heading {
     font-size: 23px;
     font-weight: 550;
 }
+
 .service_sec .services .upper_div .service_box .box_para,
-.service_sec .services .lower_div .service_box .box_para{
+.service_sec .services .lower_div .service_box .box_para {
     text-align: center;
     font-size: 16px;
 }
@@ -218,7 +236,7 @@
 
 
 /*============== counter section ============= */
-#projects_section{
+#projectsno_section {
     width: 100%;
     margin: 50px 0px 50px;
     min-height: 350px;
@@ -227,23 +245,23 @@
     justify-content: center;
 }
 
-#projects_section .project_count{
+#projectsno_section .project_count {
     width: 1100px;
-    min-height:350px ;
+    min-height: 350px;
     display: flex;
     justify-content: space-around;
     gap: 20px;
 }
 
-#projects_section .project_count .count_child{
+#projectsno_section .project_count .count_child {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 30px;
 }
 
-#projects_section .project_count .count_child .count_icon{
+#projectsno_section .project_count .count_child .count_icon {
     font-size: 50px;
     height: 90px;
     width: 100px;
@@ -255,21 +273,83 @@
     color: rgb(240, 240, 240);
 }
 
-#projects_section .project_count .count_child :nth-child(2),
-#projects_section .project_count .count_child :nth-child(3){
-    color:rgb(240, 240, 240) ;
+#projectsno_section .project_count .count_child :nth-child(2),
+#projectsno_section .project_count .count_child :nth-child(3) {
+    color: rgb(240, 240, 240);
     font-size: 26px;
     font-weight: 400;
 }
-#rating_number{
-    display:block;
+
+#rating_number {
+    display: block;
 }
-#rating_number i{
+
+#rating_number i {
     font-size: 19px;
 }
 
 
-
-
 /*============== counter section ============= */
 
+
+/* ============= Portfolio Section =============*/
+#portfolio_sec {
+    max-height: 800px;
+    padding: 40px 30px;
+    background-color: rgb(240, 240, 240);
+
+
+}
+
+#portfolio_sec .portf_head h2 {
+    padding: 7px;
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#portfolio_sec .portf_head p {
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+#portfolio_sec .portfolio_proj {
+    margin-top: 15px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#portfolio_sec .portfolio_proj .proj_box {
+    border-radius: 15px;
+    background-color: white;
+    transition: all 0.5s ease;
+
+}
+
+#portfolio_sec .portfolio_proj .proj_box:hover {
+    transform: scale(0.9);
+
+}
+
+#portfolio_sec .portfolio_proj .proj_box img {
+    height: 270px;
+    width: 350px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#portfolio_sec .portfolio_proj .proj_box p {
+    padding: 10px;
+    font-size: 20;
+}
+
+
+
+/* ============= Portfolio Section =============*/
